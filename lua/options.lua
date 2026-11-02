@@ -1,5 +1,5 @@
 vim.opt.number = true -- line number
-vim.opt.relativenumber = true -- rnu
+vim.opt.relativenumber = false -- rnu
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.ignorecase = true
@@ -20,3 +20,4 @@ vim.opt.encoding = "UTF-8"
 vim.opt.undofile = true
 
 vim.opt.scrolloff = 10
+vim.g.rocks_hererocks = false
